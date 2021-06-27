@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Poppins;
+}
+h1{
+    font-size: 50px;
+    font-family:Audiowide;
+}
+p{
+    font-size: 24px;
+    line-height: 50px;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #D4D7DE;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+}
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+img{
+    width: 20%;
+}
+a{
+    margin: 15px;
+    color: #000;
+    text-decoration: rgb(87, 182, 199);
+    text-transform: uppercase;
+}
+a:hover{
+    color: #000;
+}
+
+.center h1{
+	color: rgb(20, 19, 19);
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.banner-area{
+    position: relative;
+    background-image: url(https://cdn.discordapp.com/attachments/856840656399630356/858624420977049631/bgmod.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-area .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.about-area, .port-area, .service-area, .contact-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+
