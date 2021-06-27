@@ -50,6 +50,8 @@ a{
     text-transform: uppercase;
 }
 a:hover{
+	border: 2px solid black;
+	border-radius: 5px;
     color: #000;
 }
 
